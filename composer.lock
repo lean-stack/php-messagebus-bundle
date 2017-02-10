@@ -1,0 +1,116 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "47063bf808fdba95ba7a6fa82ee10af3",
+    "packages": [
+        {
+            "name": "lean-stack/messagebus",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lean-stack/php-messagebus.git",
+                "reference": "37bc6ae153421d4c40a421a8a54f1356091e08eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lean-stack/php-messagebus/zipball/37bc6ae153421d4c40a421a8a54f1356091e08eb",
+                "reference": "37bc6ae153421d4c40a421a8a54f1356091e08eb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.1",
+                "psr/container": "1.0.x-dev"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "^3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lean\\MessageBus\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Micha Alt",
+                    "email": "mail@lean-stack.de"
+                }
+            ],
+            "description": "Lean PHP Messagebus",
+            "time": "2017-02-10 18:44:24"
+        },
+        {
+            "name": "psr/container",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "18f0c75336992df5417a7dec4c9a45922d9ec413"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/18f0c75336992df5417a7dec4c9a45922d9ec413",
+                "reference": "18f0c75336992df5417a7dec4c9a45922d9ec413",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-01-13 09:07:16"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "lean-stack/messagebus": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.1.1"
+    },
+    "platform-dev": []
+}
