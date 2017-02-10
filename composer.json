@@ -1,5 +1,5 @@
 {
-  "name": "lean/messagebus-bundle",
+  "name": "lean-stack/messagebus-bundle",
   "description": "Symfony Bundle for the Lean Messagebus",
   "type": "symfony-bundle",
   "license": "MIT",
@@ -12,6 +12,7 @@
   "require": {
     "php": ">=7.1.1"
   },
+  "minimum-stability": "dev",
   "extra": {
     "branch-alias": {
       "dev-master": "1.0-dev"
