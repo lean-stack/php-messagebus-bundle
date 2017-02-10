@@ -12,15 +12,23 @@
   "autoload": {
     "psr-4": { "Lean\\Bundle\\MessageBusBundle\\": "src/" }
   },
+  "autoload-dev": {
+    "psr-4": { "Lean\\Bundle\\MessageBusBundle\\": "tests/" }
+  },
   "require": {
     "php": ">=7.1.1",
     "lean-stack/messagebus": "1.0.x-dev",
-    "symfony/http-kernel": "3.3.x-dev"
+    "symfony/http-kernel": "3.3.x-dev",
+    "symfony/dependency-injection": "3.3.x-dev"
   },
   "minimum-stability": "dev",
+  "prefer-stable": true,
   "extra": {
     "branch-alias": {
       "dev-master": "1.0-dev"
     }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
   }
 }
