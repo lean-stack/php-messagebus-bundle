@@ -9,9 +9,13 @@
       "email": "mail@lean-stack.de"
     }
   ],
+  "autoload": {
+    "psr-4": { "Lean\\Bundle\\MessageBusBundle\\": "src/" }
+  },
   "require": {
     "php": ">=7.1.1",
-    "lean-stack/messagebus": "^1.0@dev"
+    "lean-stack/messagebus": "1.0.x-dev",
+    "symfony/http-kernel": "3.3.x-dev"
   },
   "minimum-stability": "dev",
   "extra": {
