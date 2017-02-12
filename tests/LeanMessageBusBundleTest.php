@@ -6,7 +6,6 @@ use PHPUnit\Framework\TestCase;
 
 class LeanMessageBusBundleTest extends TestCase
 {
-
     public function testConfigurationAlias()
     {
         $bundle = new LeanMessageBusBundle();
