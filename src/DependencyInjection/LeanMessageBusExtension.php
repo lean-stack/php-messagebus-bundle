@@ -3,21 +3,18 @@
 namespace Lean\Bundle\MessageBusBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Symfony\Component\DependencyInjection\Extension\Extension;
+use Symfony\Component\HttpKernel\DependencyInjection\ConfigurableExtension;
 
-class LeanMessageBusExtension extends Extension
+class LeanMessageBusExtension extends ConfigurableExtension
 {
-
     /**
-     * Loads a specific configuration.
+     * Configures the passed container according to the merged configuration.
      *
-     * @param array $configs An array of configuration values
-     * @param ContainerBuilder $container A ContainerBuilder instance
-     *
-     * @throws \InvalidArgumentException When provided tag is not defined in this extension
+     * @param array $mergedConfig
+     * @param ContainerBuilder $container
      */
-    public function load(array $configs, ContainerBuilder $container)
+    protected function loadInternal(array $mergedConfig, ContainerBuilder $container)
     {
-        // TODO: Implement load() method.
+        // TODO: Implement loadInternal() method.
     }
 }
