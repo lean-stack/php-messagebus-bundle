@@ -19,7 +19,8 @@
     "php": ">=7.1.1",
     "lean-stack/messagebus": "1.0.x-dev",
     "symfony/http-kernel": "3.3.x-dev",
-    "symfony/dependency-injection": "3.3.x-dev"
+    "symfony/dependency-injection": "3.3.x-dev",
+    "symfony/config": "^3.2"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
